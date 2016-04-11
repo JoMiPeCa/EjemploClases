@@ -1,8 +1,42 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+class Usuario{
+    private $sRut;
+    private $sNombre;
+    private $sApellido;
+    
+    function __construct($rut, $nom, $apell) {
+        $this->sRut = $rut;
+        $this->sNombre = $nom;
+        $this->sApellido = $apell;
+    }
+    
+    function getSRut() {
+        return $this->sRut;
+    }
 
+    function getSNombre() {
+        return $this->sNombre;
+    }
+
+    function getSApellido() {
+        return $this->sApellido;
+    }
+
+    function setSRut($sRut) {
+        $this->sRut = $sRut;
+    }
+
+    function setSNombre($sNombre) {
+        $this->sNombre = $sNombre;
+    }
+
+    function setSApellido($sApellido) {
+        $this->sApellido = $sApellido;
+    }
+
+
+}
+
+
+?>

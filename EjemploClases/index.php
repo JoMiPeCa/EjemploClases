@@ -10,8 +10,10 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <form>
+            Rut: <input type="text" name="rut" id="rut"></br>
+            Nombre: <input type="text" name="nombre" id="nombre"></br>
+            Apellido: <input type="text" name="apellido" id="apellido"></br>
+        </form>
     </body>
 </html>
