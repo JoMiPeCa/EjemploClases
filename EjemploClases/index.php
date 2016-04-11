@@ -10,10 +10,11 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <form>
+        <form method="POST" action="ingUsuario.php">
             Rut: <input type="text" name="rut" id="rut"></br>
             Nombre: <input type="text" name="nombre" id="nombre"></br>
             Apellido: <input type="text" name="apellido" id="apellido"></br>
+            <input type="submit" value="Enviar">
         </form>
     </body>
 </html>
